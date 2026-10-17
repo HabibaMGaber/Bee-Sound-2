@@ -1,0 +1,92 @@
+
+:root {
+    --pink-color: #ad347e;
+    --bright-pink: rgb(197, 20, 144);
+    --navy-color: #1d244d;
+    --dark-custom: #202020;
+    --light-purple: #f1f2ff;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #171717;
+    background-color: #ffffff;
+}
+
+
+.bg-pink { background-color: var(--pink-color) !important; }
+.bg-navy { background-color: var(--navy-color) !important; }
+.btn-navy { background-color: var(--navy-color) !important; }
+.bg-dark-custom { background-color: var(--dark-custom) !important; }
+.bg-light-purple { background-color: var(--light-purple) !important; }
+.btn-bright-pink { background-color: var(--bright-pink) !important; }
+
+
+.rounded-bottom-curve {
+    border-radius: 0 0 70px 0 !important;
+}
+
+.rounded-promo {
+    border-radius: 55px 5px 55px 5px !important;
+}
+
+
+.hero-img {
+    max-height: 220px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+}
+
+.promo-img {
+    max-height: 150px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+}
+
+.discount-img {
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+}
+
+.product-detail-img {
+    max-height: 380px;
+    object-fit: contain;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+.dot {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+}
+.dot-light { background-color: #d6d6d6; }
+.dot-dark { background-color: #292929; }
+.dot-navy { background-color: #1d244d; }
+.dot-orange { background-color: #b96018; }
+.dot-tan { background-color: #cbb59a; }
+
+
+.font-size-14 { font-size: 14px; }
+.max-w-300 { max-width: 300px; }
+
+
+.hover-pink:hover {
+    color: var(--pink-color) !important;
+}
+
+.product-card {
+    transition: transform 0.2s ease;
+}
+
+.product-card:hover .product-img-box {
+    transform: translateY(-4px);
+    transition: transform 0.2s ease;
+}
